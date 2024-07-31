@@ -1,0 +1,13 @@
+@media (max-width: 1257px) {
+  nav {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+  }
+  nav ul {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    left: -50px;
+  }
+}
