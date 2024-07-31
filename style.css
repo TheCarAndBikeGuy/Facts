@@ -10,6 +10,12 @@ body {
   min-height: 2000px;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+/* Logos */
+
 .logo {
   width: 0px;
 }
@@ -19,12 +25,14 @@ body {
   border-radius: 100px;
 }
 
-.pagelinks {
+/* Navigation Bars */
+
+ .pagelinks {
   background-color: rgb(83, 83, 83);
   border-bottom-left-radius: 20px;
   border-top: solid black;
   border-bottom: solid black;
-}
+} 
 
 nav {
   position: fixed;
@@ -63,6 +71,8 @@ nav ul li a:hover {
   text-align: center;
 }
 
+/* Scripts */
+
 h1 {
   text-decoration: underline;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -86,6 +96,8 @@ p {
   color: #fff;
 }
 
+/* Bottom Of Page */
+
 footer {
   background-color: #000000;
   text-align: center;
@@ -105,6 +117,8 @@ footer {
   font-weight: 300;
   margin-top: 20px;
 }
+
+/* Icons */
 
 .icons {
   margin-top: 15px;
