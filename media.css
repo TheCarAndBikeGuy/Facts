@@ -1,9 +1,37 @@
-@media (max-width: 1257px) {
-  nav {
+@media (max-width: 1534px) {
+  body {
+    background-color: gray;
     display: flex;
-    position: absolute;
     flex-direction: column;
+    color: white;
+    font-family: arial;
+    min-width: 300px;
+    min-height: 2000px;
   }
+
+  .logo {
+    width: 110px;
+    border-radius: 100px;
+    position: relative;
+    left: 10px;
+  }
+
+  .logo2 {
+    display: none;
+  }
+
+  .pagelinks {
+    border-radius: 20px;
+  }
+
+  nav {
+    position: fixed;
+    width: 100%;
+    height: 92px;
+    background: transparent;
+    border-radius: 20px;
+  }
+
   nav ul {
     display: flex;
     position: absolute;
